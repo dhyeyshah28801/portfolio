@@ -359,7 +359,7 @@ footer{border-top:1px solid var(--line); padding:26px 0; position:relative; z-in
     <div class="metrics-band reveal">
       <div class="metric"><div class="num"><span class="count" data-target="60">0</span>%</div><div class="lbl">server response time cut at Copart</div></div>
       <div class="metric"><div class="num"><span class="count" data-target="80">0</span>%</div><div class="lbl">fewer deployment failures via test pipelines</div></div>
-      <div class="metric"><div class="num"><span class="count" data-target="3.4" data-decimal="1">0</span>M+</div><div class="lbl">real orders powering my recommendation engine</div></div>
+      <div class="metric"><div class="num"><span class="count" data-target="70">0</span>%</div><div class="lbl">faster member onboarding via registration revamp</div></div>
       <div class="metric"><div class="num"><span class="count" data-target="99.9" data-decimal="1">0</span>%</div><div class="lbl">front-end availability delivered in production</div></div>
     </div>
   </div>
@@ -392,10 +392,11 @@ footer{border-top:1px solid var(--line); padding:26px 0; position:relative; z-in
         <div class="t-note">Fortune-500 online vehicle auction platform</div>
         <ul>
           <li>Ship features and performance fixes on the member-facing platform (<strong>Spring Boot + AngularJS</strong>), deploying through Jenkins to a <strong>Kubernetes</strong> cluster</li>
-          <li>Cut server response times by <strong>60%</strong> by restructuring API call patterns and applying Java design patterns across hot code paths</li>
-          <li>Built a company-wide <strong>AI integration framework</strong> — teams add or edit LLM prompts through config or the UI, no redeploy needed — accelerating AI rollout across the org</li>
-          <li>Designed a <strong>high-throughput event pipeline</strong> ingesting member activity into a datastore wired to Grafana, giving product teams real-time analytics</li>
-          <li>Stood up in-house <strong>Solr, Kafka, and message queues</strong>; integrated Scalyr, Datadog, and Grafana for faster incident detection</li>
+          <li>Slashed server response times by <strong>60%</strong> for millions of vehicle buyers by re-architecting API call patterns and applying Java design patterns across hot code paths</li>
+          <li>Cut member onboarding time by <strong>70%</strong> by driving the registration-revamp project — automated manual verification checks, ID verification, state-specific document recommendations, and auto-activation of member accounts</li>
+          <li>Contributed core features to a company-wide <strong>AI integration framework</strong> — teams ship or edit LLM prompts through config or the UI, no redeploy needed — accelerating AI adoption across the org</li>
+          <li>Architected a <strong>high-throughput event pipeline</strong> streaming member activity into a Grafana-connected datastore, turning raw platform events into real-time product analytics</li>
+          <li>Cut incident time-to-detection by standing up in-house <strong>Solr, Kafka, and message-queue infrastructure</strong> and wiring Scalyr, Datadog, and Grafana into the monitoring stack</li>
         </ul>
       </div>
 
@@ -407,10 +408,10 @@ footer{border-top:1px solid var(--line); padding:26px 0; position:relative; z-in
         </div>
         <div class="t-note">UK fintech — credit-card provider infrastructure</div>
         <ul>
-          <li>Built a <strong>real-time event fan-out platform</strong> with AWS Glue schema validation that cut resource consumption by <strong>40%</strong></li>
-          <li>Established end-to-end test pipelines (Vitest / Jest / Mocha) that reduced deployment failures by <strong>80%</strong></li>
-          <li>Designed an Adapter-pattern integration layer (<strong>Inversify + TypeScript</strong>) unifying Salesforce, Mambu, and GoCardless behind one interface</li>
-          <li>Built an interim <strong>IaC framework</strong> (AWS SDK + GitHub Actions) that standardized legacy Lambda deployments and eliminated manual release steps</li>
+          <li>Cut resource consumption by <strong>40%</strong> by engineering a <strong>real-time event fan-out platform</strong> with AWS Glue schema validation, hardening every downstream data consumer</li>
+          <li>Drove deployment failures down <strong>80%</strong> by architecting end-to-end test pipelines (Vitest / Jest / Mocha) into GitHub Actions + Docker CI/CD — making risky releases routine</li>
+          <li>Unified three fintech platforms — Salesforce, Mambu, GoCardless — behind one Adapter-pattern integration layer (<strong>Inversify + TypeScript</strong>), erasing duplicated client code</li>
+          <li>Replaced manual Lambda release rituals with an <strong>IaC framework</strong> (AWS SDK + GitHub Actions), standardizing deployments across a legacy serverless estate</li>
         </ul>
       </div>
 
@@ -422,10 +423,10 @@ footer{border-top:1px solid var(--line); padding:26px 0; position:relative; z-in
         </div>
         <div class="t-note">Nationwide supply-chain automation — UK home-improvement retailer</div>
         <ul>
-          <li>Built serverless <strong>Node.js microservices on AWS</strong> (Serverless Framework + CloudFormation) that sped order processing by <strong>70%</strong></li>
-          <li>Optimized SQL with Sequelize + MySQL, cutting query execution time by <strong>60%</strong> across order-tracking flows</li>
-          <li>Shipped <strong>Vue.js</strong> frontends with Auth0 and a S3 / Route 53 / CloudFront delivery path — <strong>~40% faster page loads, 99.9% availability</strong></li>
-          <li>Led client demos and system-architecture design; shortened release cycles by <strong>two weeks</strong></li>
+          <li>Accelerated order processing by <strong>70%</strong> with serverless <strong>Node.js microservices on AWS</strong> (Serverless Framework + CloudFormation) powering nationwide supply-chain automation across thousands of live orders</li>
+          <li>Reduced SQL execution time by <strong>60%</strong> by tuning Sequelize ORM queries and MySQL indexing under production order-tracking load</li>
+          <li>Achieved <strong>~40% faster page loads and 99.9% availability</strong> by pairing <strong>Vue.js</strong> + Auth0 frontends with an S3 / Route 53 / CloudFront edge-delivery pipeline</li>
+          <li>Compressed release cycles by <strong>two weeks</strong> by owning client demos, system-architecture design, and cross-team coordination end to end</li>
         </ul>
       </div>
 
@@ -437,8 +438,8 @@ footer{border-top:1px solid var(--line); padding:26px 0; position:relative; z-in
         </div>
         <div class="t-note">Steel-manufacturing supply chain</div>
         <ul>
-          <li>Delivered a cross-platform inventory app (<strong>Flutter + PHP</strong>) giving field staff real-time supply-chain visibility</li>
-          <li>Led a team of interns and ran client demos that secured approval for the next development phase</li>
+          <li>Shipped a cross-platform inventory app (<strong>Flutter + PHP</strong>) putting real-time supply-chain data in field crews' hands</li>
+          <li>Led a team of interns and ran the client demos that won approval for the next development phase</li>
         </ul>
       </div>
 
